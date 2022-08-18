@@ -1,0 +1,3 @@
+= Playground for setup `tracing_subscriber` init
+
+This playground uses a lib crate `logtesterlib` that will log at DEBUG, INFO and WARN, and a executable crate `logtestermain` that you can use to setup a `tracing_subscriber` to change the levels of the external crates or modules.
